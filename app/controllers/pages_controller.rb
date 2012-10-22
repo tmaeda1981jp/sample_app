@@ -7,4 +7,9 @@ class PagesController < ApplicationController
   def contact
     @contact_message = "お問い合わせ"
   end
+
+  def about
+    @title = "このアプリケーションについて"
+    @description = "研修用のアプリケーションです．"
+  end
 end
